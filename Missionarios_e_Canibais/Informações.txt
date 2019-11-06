@@ -1,0 +1,21 @@
+Instituto Federal de Educação, Ciência e Tecnologia de Brasília.
+Alunos: Danyelle da Silva Oliveira Angelo (Matrícula: 171057600007) e
+        Guilherme Pereira Paiva (Matrícula: 181057600032)
+Curso: ABI - Ciência da Computação
+
+Trabalho 1 - Missionários e canibais
+
+    Para resolver este trabalho foi usado o método de busca por amplitude (largura). Como já sabíamos de ante mão que
+  este problema não geraria vários níveis e estados filhos em nossa  árvore de busca,  e devido a sua facilidade  de
+  implementação escolhemos esse tipo de busca.
+    Para o desenvolvimento deste trabalho foi usado a versão Python 3.6.5.
+
+    Os arquivos estão distribuídos da seguinte forma:
+      - Diretório Raiz: Contém a classe Principal (principal.py) que executa o método main() iniciando o processo de  resolução
+        do problema dado. Além disso esse diretório contem os arquivos: descrevendo o problema.txt que contém informações úteis
+        usadas para desenvolver o algoritmo.
+      - Diretório buscaEmLargura contém os arquivos:
+          - __init__.py, criado para que pudéssemos importar na classe Principal os arquivos deste diretório
+          - imprime.py imprime a solução do nosso problema chamando o método solucao da classe BuscaSolucao (arquivo: buscaSolucao.py)
+          - buscaSolucao.py cria a nossa árvore de busca usando métodos  da classe State (state.py)
+          - state.py cria nós, verifica validade de nós e verifica se o estado meta do nosso problema foi atingido.
